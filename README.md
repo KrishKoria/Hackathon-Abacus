@@ -1049,11 +1049,7 @@ export LLM_PROVIDER=deepseek
 
 ## 🛡️ Fallback Architecture
 
-### Philosophy
-
-> **"Fallbacks should look like INTENTIONAL DESIGN CHOICES, not failures."**
-
-### 5-Tier Defense System
+### 4-Tier Defense System
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -1102,20 +1098,6 @@ export LLM_PROVIDER=deepseek
 │ • Safe fallback to simpler visualization                       │
 │ • Never show raw Python errors to users                        │
 └─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│ TIER 5: HONEST FAILURE PROTOCOL                                 │
-│ ───────────────────────────────                                 │
-│                                                                  │
-│ DON'T: Pretend it's working, make excuses                      │
-│                                                                  │
-│ DO: "This is hitting an edge case. But watch: the system       │
-│     gracefully falls back to [table view]. That's              │
-│     production thinking."                                       │
-│                                                                  │
-│ WHY: Shows you anticipated failures (senior thinking)          │
-└─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -1142,20 +1124,6 @@ python scripts/smoke_test.py
 - Claims data loads
 - ChromaDB initializes
 
-### Pre-Demo Checklist
-
-```
-[ ] OpenAI API key is valid and has credits
-[ ] .env file configured correctly
-[ ] ChromaDB loads successfully
-[ ] Golden Path 1 (Claim 1023) works
-[ ] Golden Path 2 (Dr. X) works
-[ ] Golden Path 3 (Trends) works
-[ ] Graph rendering works
-[ ] All Canvas modes render
-[ ] No console errors
-```
-
 ---
 
 ## 🏆 Hackathon Context
@@ -1179,7 +1147,7 @@ This project implements **Theme #5: "ETL + RAG for Fraud Detection"** from the A
 | **COMPLETENESS**       | Fully functional end-to-end system with data generation, RAG, agent, UI                  |
 | **INNOVATION**         | Split-screen "Investigator's Canvas", data silo unification, graph-based fraud detection |
 | **Technical Depth**    | LangGraph ReAct agent, ChromaDB RAG, NetworkX analysis, Plotly visualizations            |
-| **Production Quality** | 5-tier fallback architecture, MCP-ready tools, modular code structure                    |
+| **Production Quality** | 4-tier fallback architecture, MCP-ready tools, modular code structure                    |
 
 ### Skills Demonstrated
 
