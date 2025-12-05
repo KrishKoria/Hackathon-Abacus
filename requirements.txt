@@ -1,0 +1,14 @@
+langgraph
+langchain-openai
+openai
+streamlit
+chromadb
+plotly
+networkx
+faker
+pandas
+pydantic    
+python-dotenv
+tenacity
+plotly
+markdown

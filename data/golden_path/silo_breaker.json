@@ -1,0 +1,20 @@
+{
+  "trigger": "Why was Claim #1023 denied?",
+  "claim": {
+    "claim_id": "CLM-01023",
+    "patient_name": "John Smith",
+    "provider_name": "Dr. X",
+    "claim_status": "Denied",
+    "denial_reason": "Not medically necessary",
+    "diagnosis": "ST elevation myocardial infarction",
+    "procedure": "Cardiac catheterization",
+    "amount": 8500.0
+  },
+  "clinical_note": {
+    "note_id": "CN-001",
+    "content_highlight": "This is a life-threatening cardiac emergency. ECG shows ST-elevation in leads V1-V4, consistent with anterior STEMI.",
+    "contradiction": "The denial states 'Not medically necessary', but the clinical note clearly documents a STEMI (heart attack) requiring immediate cardiac catheterization. This is a critical, life-saving intervention."
+  },
+  "response": "I found a significant discrepancy in Claim #1023. The claim was denied for 'Not medically necessary', but the clinical documentation from CN-001 clearly shows this was an **acute ST-elevation myocardial infarction (STEMI)** - a life-threatening heart attack requiring immediate intervention. The clinical note explicitly states this was a 'life-threatening cardiac emergency' with door-to-balloon time being critical. This denial may warrant immediate review.",
+  "ui_hint": "MODE_DOC"
+}

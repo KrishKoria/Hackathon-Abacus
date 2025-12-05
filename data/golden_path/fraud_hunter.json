@@ -1,0 +1,473 @@
+{
+  "nodes": [
+    {
+      "id": "PRV-007",
+      "type": "provider",
+      "label": "Dr. X",
+      "specialty": "Cardiology",
+      "risk_score": 0.92,
+      "total_claims": 245,
+      "denial_rate": 0.08,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_1"
+    },
+    {
+      "id": "PRV-012",
+      "type": "provider",
+      "label": "Dr. Y",
+      "specialty": "Cardiology",
+      "risk_score": 0.78,
+      "total_claims": 189,
+      "denial_rate": 0.12,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_1"
+    },
+    {
+      "id": "P-0101",
+      "type": "patient",
+      "label": "Patient A",
+      "risk_score": 0.53,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_1"
+    },
+    {
+      "id": "P-0102",
+      "type": "patient",
+      "label": "Patient B",
+      "risk_score": 0.65,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_1"
+    },
+    {
+      "id": "P-0103",
+      "type": "patient",
+      "label": "Patient C",
+      "risk_score": 0.52,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_1"
+    },
+    {
+      "id": "P-0104",
+      "type": "patient",
+      "label": "Patient D",
+      "risk_score": 0.56,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_1"
+    },
+    {
+      "id": "P-0105",
+      "type": "patient",
+      "label": "Patient E",
+      "risk_score": 0.55,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_1"
+    },
+    {
+      "id": "P-0106",
+      "type": "patient",
+      "label": "Patient F",
+      "risk_score": 0.55,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_1"
+    },
+    {
+      "id": "PRV-023",
+      "type": "provider",
+      "label": "Dr. Alpha",
+      "specialty": "Orthopedics",
+      "risk_score": 0.85,
+      "total_claims": 312,
+      "denial_rate": 0.05,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_2"
+    },
+    {
+      "id": "PRV-024",
+      "type": "provider",
+      "label": "Dr. Beta",
+      "specialty": "Orthopedics",
+      "risk_score": 0.79,
+      "total_claims": 287,
+      "denial_rate": 0.06,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_2"
+    },
+    {
+      "id": "PRV-025",
+      "type": "provider",
+      "label": "Dr. Gamma",
+      "specialty": "Orthopedics",
+      "risk_score": 0.72,
+      "total_claims": 198,
+      "denial_rate": 0.07,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_2"
+    },
+    {
+      "id": "P-0150",
+      "type": "patient",
+      "label": "Patient G",
+      "risk_score": 0.56,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_2"
+    },
+    {
+      "id": "P-0151",
+      "type": "patient",
+      "label": "Patient H",
+      "risk_score": 0.6,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_2"
+    },
+    {
+      "id": "P-0152",
+      "type": "patient",
+      "label": "Patient I",
+      "risk_score": 0.49,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_2"
+    },
+    {
+      "id": "P-0153",
+      "type": "patient",
+      "label": "Patient J",
+      "risk_score": 0.57,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_2"
+    },
+    {
+      "id": "P-0154",
+      "type": "patient",
+      "label": "Patient K",
+      "risk_score": 0.54,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_2"
+    },
+    {
+      "id": "PRV-035",
+      "type": "provider",
+      "label": "Dr. Shadow",
+      "specialty": "Primary Care",
+      "risk_score": 0.88,
+      "total_claims": 456,
+      "denial_rate": 0.03,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_3"
+    },
+    {
+      "id": "PRV-036",
+      "type": "provider",
+      "label": "Dr. Ghost",
+      "specialty": "Primary Care",
+      "risk_score": 0.82,
+      "total_claims": 398,
+      "denial_rate": 0.04,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_3"
+    },
+    {
+      "id": "P-0180",
+      "type": "patient",
+      "label": "Patient L",
+      "risk_score": 0.46,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_3"
+    },
+    {
+      "id": "P-0181",
+      "type": "patient",
+      "label": "Patient M",
+      "risk_score": 0.54,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_3"
+    },
+    {
+      "id": "P-0182",
+      "type": "patient",
+      "label": "Patient N",
+      "risk_score": 0.41,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_3"
+    },
+    {
+      "id": "P-0183",
+      "type": "patient",
+      "label": "Patient O",
+      "risk_score": 0.53,
+      "is_fraud_ring_member": true,
+      "fraud_ring": "ring_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PRV-007",
+      "target": "P-0101",
+      "relationship_type": "treated",
+      "weight": 12
+    },
+    {
+      "source": "PRV-007",
+      "target": "P-0102",
+      "relationship_type": "treated",
+      "weight": 8
+    },
+    {
+      "source": "PRV-007",
+      "target": "P-0103",
+      "relationship_type": "treated",
+      "weight": 15
+    },
+    {
+      "source": "PRV-012",
+      "target": "P-0104",
+      "relationship_type": "treated",
+      "weight": 9
+    },
+    {
+      "source": "PRV-012",
+      "target": "P-0105",
+      "relationship_type": "treated",
+      "weight": 11
+    },
+    {
+      "source": "PRV-012",
+      "target": "P-0106",
+      "relationship_type": "treated",
+      "weight": 7
+    },
+    {
+      "source": "PRV-007",
+      "target": "PRV-012",
+      "relationship_type": "referred_from",
+      "weight": 23
+    },
+    {
+      "source": "PRV-012",
+      "target": "PRV-007",
+      "relationship_type": "referred_from",
+      "weight": 19
+    },
+    {
+      "source": "P-0101",
+      "target": "PRV-012",
+      "relationship_type": "referred_to",
+      "weight": 5
+    },
+    {
+      "source": "P-0102",
+      "target": "PRV-012",
+      "relationship_type": "referred_to",
+      "weight": 4
+    },
+    {
+      "source": "P-0104",
+      "target": "PRV-007",
+      "relationship_type": "referred_to",
+      "weight": 6
+    },
+    {
+      "source": "P-0105",
+      "target": "PRV-007",
+      "relationship_type": "referred_to",
+      "weight": 5
+    },
+    {
+      "source": "PRV-023",
+      "target": "P-0150",
+      "relationship_type": "treated",
+      "weight": 18
+    },
+    {
+      "source": "PRV-023",
+      "target": "P-0151",
+      "relationship_type": "treated",
+      "weight": 15
+    },
+    {
+      "source": "PRV-024",
+      "target": "P-0150",
+      "relationship_type": "treated",
+      "weight": 16
+    },
+    {
+      "source": "PRV-024",
+      "target": "P-0152",
+      "relationship_type": "treated",
+      "weight": 14
+    },
+    {
+      "source": "PRV-025",
+      "target": "P-0151",
+      "relationship_type": "treated",
+      "weight": 12
+    },
+    {
+      "source": "PRV-025",
+      "target": "P-0153",
+      "relationship_type": "treated",
+      "weight": 13
+    },
+    {
+      "source": "PRV-023",
+      "target": "PRV-024",
+      "relationship_type": "referred_from",
+      "weight": 28
+    },
+    {
+      "source": "PRV-024",
+      "target": "PRV-025",
+      "relationship_type": "referred_from",
+      "weight": 24
+    },
+    {
+      "source": "PRV-025",
+      "target": "PRV-023",
+      "relationship_type": "referred_from",
+      "weight": 21
+    },
+    {
+      "source": "PRV-035",
+      "target": "P-0180",
+      "relationship_type": "treated",
+      "weight": 45
+    },
+    {
+      "source": "PRV-035",
+      "target": "P-0181",
+      "relationship_type": "treated",
+      "weight": 42
+    },
+    {
+      "source": "PRV-036",
+      "target": "P-0182",
+      "relationship_type": "treated",
+      "weight": 38
+    },
+    {
+      "source": "PRV-036",
+      "target": "P-0183",
+      "relationship_type": "treated",
+      "weight": 41
+    },
+    {
+      "source": "PRV-035",
+      "target": "PRV-036",
+      "relationship_type": "referred_from",
+      "weight": 67
+    }
+  ],
+  "findings": [
+    {
+      "finding_type": "circular_referral",
+      "description": "Bidirectional referral pattern detected between PRV-007 (Dr. X) and PRV-012 (Dr. Y) with 42 total cross-referrals",
+      "severity": "HIGH",
+      "fraud_ring": "ring_1"
+    },
+    {
+      "finding_type": "volume_anomaly",
+      "description": "PRV-007 shows 3.2x higher than average referral volume to PRV-012",
+      "severity": "MEDIUM",
+      "fraud_ring": "ring_1"
+    },
+    {
+      "finding_type": "billing_pattern",
+      "description": "Both providers bill for similar high-cost cardiac procedures on shared patients within 7-day windows",
+      "severity": "HIGH",
+      "fraud_ring": "ring_1"
+    },
+    {
+      "finding_type": "upcoding_pattern",
+      "description": "PRV-023, PRV-024, PRV-025 consistently bill complex procedures (27447, 27130) for routine complaints",
+      "severity": "HIGH",
+      "fraud_ring": "ring_2"
+    },
+    {
+      "finding_type": "shared_patient_pool",
+      "description": "5 patients account for 73% of high-value claims across all 3 providers",
+      "severity": "MEDIUM",
+      "fraud_ring": "ring_2"
+    },
+    {
+      "finding_type": "phantom_billing",
+      "description": "PRV-035 and PRV-036 bill 4x industry average volume with minimal documentation",
+      "severity": "CRITICAL",
+      "fraud_ring": "ring_3"
+    },
+    {
+      "finding_type": "impossible_schedule",
+      "description": "PRV-035 billed for 45 patient visits in single day on 12 occasions",
+      "severity": "CRITICAL",
+      "fraud_ring": "ring_3"
+    }
+  ],
+  "fraud_rings": {
+    "ring_1": {
+      "name": "Cardiology Kickback Ring",
+      "providers": [
+        "PRV-007",
+        "PRV-012"
+      ],
+      "provider_names": [
+        "Dr. X",
+        "Dr. Y"
+      ],
+      "specialty": "Cardiology",
+      "patients": [
+        "P-0101",
+        "P-0102",
+        "P-0103",
+        "P-0104",
+        "P-0105",
+        "P-0106"
+      ],
+      "pattern": "circular_referral",
+      "description": "Bidirectional referrals with high-cost cardiac procedures"
+    },
+    "ring_2": {
+      "name": "Upcoding Scheme",
+      "providers": [
+        "PRV-023",
+        "PRV-024",
+        "PRV-025"
+      ],
+      "provider_names": [
+        "Dr. Alpha",
+        "Dr. Beta",
+        "Dr. Gamma"
+      ],
+      "specialty": "Orthopedics",
+      "patients": [
+        "P-0150",
+        "P-0151",
+        "P-0152",
+        "P-0153",
+        "P-0154"
+      ],
+      "pattern": "upcoding",
+      "description": "Systematic billing of complex procedures for routine visits"
+    },
+    "ring_3": {
+      "name": "Phantom Billing Network",
+      "providers": [
+        "PRV-035",
+        "PRV-036"
+      ],
+      "provider_names": [
+        "Dr. Shadow",
+        "Dr. Ghost"
+      ],
+      "specialty": "Primary Care",
+      "patients": [
+        "P-0180",
+        "P-0181",
+        "P-0182",
+        "P-0183"
+      ],
+      "pattern": "phantom_billing",
+      "description": "Billing for services never rendered to patients"
+    }
+  },
+  "trigger": "Analyze Dr. X for fraud",
+  "response": "I've analyzed Dr. X (PRV-007) and discovered a concerning pattern. There's a **circular referral network** between Dr. X and Dr. Y (PRV-012), both Cardiology specialists. Key findings:\n\n1. **42 bidirectional referrals** between the two providers\n2. **6 shared patients** with unusual visit patterns\n3. Both bill for similar high-cost cardiac procedures on the same patients within 7-day windows\n4. Dr. X shows 3.2x higher than average referral volume to Dr. Y\n\nThis pattern is consistent with a potential kickback arrangement. Recommend further investigation.",
+  "ui_hint": "MODE_GRAPH"
+}

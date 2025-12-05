@@ -1,0 +1,52 @@
+{
+  "trigger": "Show denial trends by specialty",
+  "data": [
+    {
+      "specialty": "Cardiology",
+      "denial_rate": 0.34,
+      "benchmark": 0.25
+    },
+    {
+      "specialty": "Oncology",
+      "denial_rate": 0.28,
+      "benchmark": 0.25
+    },
+    {
+      "specialty": "Orthopedics",
+      "denial_rate": 0.31,
+      "benchmark": 0.25
+    },
+    {
+      "specialty": "Neurology",
+      "denial_rate": 0.22,
+      "benchmark": 0.25
+    },
+    {
+      "specialty": "Emergency Medicine",
+      "denial_rate": 0.18,
+      "benchmark": 0.25
+    },
+    {
+      "specialty": "Primary Care",
+      "denial_rate": 0.15,
+      "benchmark": 0.25
+    },
+    {
+      "specialty": "Dermatology",
+      "denial_rate": 0.12,
+      "benchmark": 0.25
+    },
+    {
+      "specialty": "Gastroenterology",
+      "denial_rate": 0.26,
+      "benchmark": 0.25
+    }
+  ],
+  "insights": [
+    "Cardiology has the highest denial rate at 34%, significantly above the 25% benchmark",
+    "Emergency Medicine and Primary Care perform better than benchmark",
+    "Three specialties (Cardiology, Orthopedics, Oncology) exceed the industry benchmark"
+  ],
+  "response": "Here's the denial rate analysis by specialty. **Cardiology leads with a 34% denial rate**, which is 9 percentage points above the 25% industry benchmark. This could indicate issues with prior authorization processes or documentation practices in cardiology. In contrast, Primary Care and Emergency Medicine show the healthiest denial rates at 15% and 18% respectively.",
+  "ui_hint": "MODE_CHART"
+}
