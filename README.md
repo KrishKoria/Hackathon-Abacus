@@ -1202,12 +1202,6 @@ Built for the Abacus Insights Hackathon
 
 ---
 
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
----
-
 <p align="center">
   <strong>ClaimsIQ Nexus</strong><br/>
   <em>Breaking the Silo Between Claims and Care</em>
